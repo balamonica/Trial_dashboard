@@ -1,0 +1,40 @@
+:root {
+  --mm-bg: #ffffff;
+  --mm-page: #f8f9fb;
+  --mm-primary: #2b6cb0;
+  --mm-primary-dark: #1e3a5f;
+  --mm-teal: #0d9488;
+  --mm-slate: #64748b;
+  --mm-slate-dark: #334155;
+  --mm-border: #e2e8f0;
+  --mm-success: #a8d582;
+  --mm-warning: #f59e0b;
+  --mm-danger: #ef4444;
+  --mm-radius: 10px;
+  --mm-shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 4px 12px rgba(15, 23, 42, 0.04);
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--mm-slate-dark);
+  background-color: var(--mm-bg);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--mm-bg);
+}
+
+#root {
+  min-height: 100vh;
+}

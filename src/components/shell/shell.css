@@ -1,0 +1,111 @@
+.erp-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fb;
+}
+
+.erp-topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+
+.erp-topnav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+
+.erp-topnav-link {
+  font-size: 0.8125rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.erp-topnav-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.8125rem;
+  color: #334155;
+}
+
+.erp-bell {
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.erp-email {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .erp-email {
+    display: inline;
+  }
+}
+
+.erp-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #2b6cb0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.erp-body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.erp-sidebar {
+  width: 52px;
+  background: #ffffff;
+  border-right: 1px solid #e2e8f0;
+  flex-shrink: 0;
+}
+
+.erp-sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  gap: 4px;
+}
+
+.erp-sb-icon {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  cursor: default;
+  font-size: 1.1rem;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.erp-sb-icon--active {
+  background: rgba(43, 108, 176, 0.12);
+  color: #2b6cb0;
+}
+
+.erp-main {
+  flex: 1;
+  min-width: 0;
+  overflow: auto;
+  background: #ffffff;
+}
