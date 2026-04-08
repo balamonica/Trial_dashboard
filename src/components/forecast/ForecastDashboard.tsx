@@ -24,14 +24,14 @@ export function ForecastDashboard() {
           className={`forecast-main-tab ${mainTab === "sales" ? "active" : ""}`}
           onClick={() => setMainTab("sales")}
         >
-          Sales and demand forecast
+          Sales and Demand Forecast
         </button>
         <button
           type="button"
           className={`forecast-main-tab ${mainTab === "inventory" ? "active" : ""}`}
           onClick={() => setMainTab("inventory")}
         >
-          Inventory prediction
+          Inventory Prediction
         </button>
       </nav>
 
