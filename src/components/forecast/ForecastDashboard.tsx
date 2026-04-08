@@ -31,7 +31,7 @@ export function ForecastDashboard() {
           className={`forecast-main-tab ${mainTab === "inventory" ? "active" : ""}`}
           onClick={() => setMainTab("inventory")}
         >
-          Inventory management
+          Inventory prediction
         </button>
       </nav>
 
